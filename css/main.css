@@ -6,6 +6,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-size: 14px;
   line-height: 1.4;
+  color: #f6f5ef;
 }
 
 img {
@@ -68,13 +69,39 @@ ul {
   background-color: #11131f;
   border-bottom: 1px solid rgba(246, 245, 239, 0.2);
 }
+@media screen and (min-width: 768px) {
+  .header__container {
+    max-width: 768px;
+    padding: 32px;
+  }
+}
 
 .header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  font-weight: 700;
   color: #f6f5ef;
   text-transform: uppercase;
   text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 23px;
+    height: 23px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo-text {
+    width: 186px;
+    height: 13px;
+  }
+}
 @media screen and (max-width: 767px) {
   .header__nav {
     display: none;
@@ -96,9 +123,31 @@ ul {
   border: none;
   cursor: pointer;
 }
+@media screen and (min-width: 768px) {
+  .header__open-menu {
+    display: none;
+  }
+}
 
 .header-icon-menu {
   width: 24px;
   height: 24px;
   fill: #f6f5ef;
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 24px;
+  }
+}
+.header__nav-link {
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f6f5ef;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

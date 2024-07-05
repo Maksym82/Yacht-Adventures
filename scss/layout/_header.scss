@@ -1,44 +1,87 @@
 .header {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .header__container {
-    max-width: 375px;
-    padding: 24px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    background-color: $colorDarkBlue;
-    border-bottom: 1px solid rgba(246, 245, 239, 0.2);
+  max-width: 375px;
+  padding: 24px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: $colorDarkBlue;
+  border-bottom: 1px solid rgba(246, 245, 239, 0.2);
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 32px;
+  }
 }
 
 .header__logo {
-    color: $colorWhite;
-    text-transform: uppercase;
-    text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: $colorWhite;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
-    .header__nav {
-        display: none;
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 23px;
+        height: 23px;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .logo-text {
+        width: 186px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav {
+    display: none;
+  }
+}
+
 .header__open-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .header-icon-menu {
-    width: 24px;
-    height: 24px;
-    fill: $colorWhite;
+  width: 24px;
+  height: 24px;
+  fill: $colorWhite;
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav-list {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.header__nav-link {
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $colorWhite;
+  text-decoration: none;
 }
