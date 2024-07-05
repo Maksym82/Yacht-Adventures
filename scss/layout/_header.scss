@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    width: 100%;
+}
+
+.header__container {
+    max-width: 375px;
+    padding: 24px 20px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
