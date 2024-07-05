@@ -64,6 +64,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 auto;
   background-color: #11131f;
   border-bottom: 1px solid rgba(246, 245, 239, 0.2);
 }
