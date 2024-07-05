@@ -6,12 +6,38 @@
 .header__container {
     max-width: 375px;
     padding: 24px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $colorDarkBlue;
+    border-bottom: 1px solid rgba(246, 245, 239, 0.2);
 }
 
 .header__logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    color: $colorWhite;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header__nav {
+        display: none;
+    }
+}
+
+.header__open-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header-icon-menu {
+    width: 24px;
+    height: 24px;
+    fill: $colorWhite;
 }
