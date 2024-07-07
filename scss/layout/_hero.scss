@@ -62,6 +62,10 @@
 .button__box {
   display: flex;
   gap: 8px;
+
+  @media screen and (min-width: 768px) {
+    gap: 11px;
+  }
 }
 
 .button__first {
@@ -78,6 +82,12 @@
   color: $colorWhite;
   text-decoration: none;
   cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+  }
 }
 
 .button__second {
@@ -95,6 +105,12 @@
   color: $colorWhite;
   text-decoration: none;
   cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    width: 117px;
+    height: 48px;
+    font-size: 18px;
+  }
 }
 
 .hero__image {
