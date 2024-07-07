@@ -183,6 +183,12 @@ ul {
   line-height: 1.1;
   margin-bottom: 14px;
 }
+@media screen and (min-width: 768px) {
+  .hero__title {
+    width: 698px;
+    font-size: 60px;
+  }
+}
 
 .hero__title-span {
   font-weight: 500;
@@ -194,11 +200,29 @@ ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (min-width: 768px) {
+  .hero__title-span {
+    font-style: italic;
+    background: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    margin-bottom: 16px;
+  }
+}
 
 .hero__text {
   font-weight: 400;
   letter-spacing: -0.02em;
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .hero__text {
+    width: 539px;
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
 }
 
 .button__box {
