@@ -150,6 +150,33 @@
 .hero__yacht {
   position: absolute;
   bottom: 108px;
+  right: 24px;
   width: 287px;
-  background: transparent;
+}
+
+.hero__info {
+  position: absolute;
+  left: 24px;
+  bottom: 48px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hero__price {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: $colorDarkBlue;
+  margin-bottom: 0;
+}
+
+.hero__description {
+  font-weight: 400;
+  width: 169px;
+  letter-spacing: -0.04em;
+  color: $colorDarkBlue;
+  margin-bottom: 0;
 }
