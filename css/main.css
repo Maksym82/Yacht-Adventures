@@ -326,4 +326,11 @@ ul {
 .hero__client-item-third {
   margin-left: -7px;
   z-index: -2;
+}
+
+.hero__yacht {
+  position: absolute;
+  bottom: 108px;
+  width: 287px;
+  background: transparent;
 }/*# sourceMappingURL=main.css.map */
