@@ -280,4 +280,11 @@ ul {
   top: 12%;
   left: -37%;
   background: rgba(145, 175, 186, 0.6);
+}
+
+.hero__img-ceo {
+  position: absolute;
+  border-radius: 24px;
+  top: 35px;
+  right: 8px;
 }/*# sourceMappingURL=main.css.map */

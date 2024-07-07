@@ -57,7 +57,8 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">
-            Explore the High Seas with <span class="hero__title-span">Our Luxury Yacht</span> Rentals
+            Explore the High Seas with
+            <span class="hero__title-span">Our Luxury Yacht</span> Rentals
           </h1>
           <p class="hero__text">
             Experience the freedom and luxury of yachting on the open seas.
@@ -71,7 +72,37 @@
           </div>
           <div class="hero__image">
             <div class="hero__image-container">
-              
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/hero/hero-mobile-ceo-133.jpg 1x,
+                    ./images/hero/hero-mobile-ceo-266.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/hero/hero-tablet-ceo-233.jpg 1x,
+                    ./images/hero/hero-tablet-ceo-466.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/hero/hero-desktop-ceo-233.jpg 1x,
+                    ./images/hero/hero-desktop-ceo-466.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="hero__img-ceo"
+                  src="./images/hero/hero-ceo.jpg"
+                  alt="man"
+                />
+              </picture>
             </div>
           </div>
         </div>
