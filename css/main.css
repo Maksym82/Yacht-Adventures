@@ -316,7 +316,6 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .hero__image-container {
-    width: 426px;
     height: 598px;
   }
 }
@@ -341,6 +340,12 @@ ul {
   border-radius: 24px;
   top: 35px;
   right: -8px;
+}
+@media screen and (min-width: 768px) {
+  .hero__img-ceo {
+    top: 32px;
+    right: 144px;
+  }
 }
 
 .hero__clients-box {
