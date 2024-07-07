@@ -294,6 +294,7 @@ ul {
   top: 24px;
   left: 24px;
   width: 135px;
+  z-index: 2;
 }
 
 .hero__client-list {
@@ -315,4 +316,14 @@ ul {
   text-transform: uppercase;
   color: #11131f;
   margin-bottom: 0;
+}
+
+.hero__client-item {
+  margin-left: -7px;
+  z-index: -1;
+}
+
+.hero__client-item-third {
+  margin-left: -7px;
+  z-index: -2;
 }/*# sourceMappingURL=main.css.map */

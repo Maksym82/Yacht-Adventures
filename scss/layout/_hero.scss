@@ -115,6 +115,7 @@
   top: 24px;
   left: 24px;
   width: 135px;
+  z-index: 2;
 }
 
 .hero__client-list {
@@ -129,10 +130,19 @@
 
 .hero__client-text {
   font-weight: 700;
-  // font-size: 14px;
   line-height: 110%;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: $colorDarkBlue;
   margin-bottom: 0;
+}
+
+.hero__client-item {
+  margin-left: -7px;
+  z-index: -1;
+}
+
+.hero__client-item-third {
+  margin-left: -7px;
+  z-index: -2;
 }
