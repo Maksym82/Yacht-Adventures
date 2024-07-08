@@ -186,7 +186,7 @@ ul {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    gap: 124px;
+    gap: 236px;
   }
 }
 .hero__title {
@@ -318,6 +318,11 @@ ul {
     padding-top: 64px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .hero__image {
+    padding-top: 0;
+  }
+}
 
 .hero__image-container {
   position: relative;
@@ -359,6 +364,11 @@ ul {
   .hero__img-ceo {
     top: 32px;
     right: -145px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero__img-ceo {
+    right: -115px;
   }
 }
 

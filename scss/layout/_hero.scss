@@ -18,7 +18,7 @@
   .hero__container {
     display: flex;
     flex-direction: row-reverse;
-    gap: 124px;
+    gap: 236px;
   }
 }
 
@@ -129,6 +129,10 @@
   @media screen and (min-width: 768px) {
     padding-top: 64px;
   }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 0;
+  }
 }
 
 .hero__image-container {
@@ -167,6 +171,10 @@
   @media screen and (min-width: 768px) {
     top: 32px;
     right: -145px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    right: -115px;
   }
 }
 
