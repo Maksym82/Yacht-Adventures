@@ -212,6 +212,12 @@
   bottom: 108px;
   right: 24px;
   width: 287px;
+
+  @media screen and (min-width: 768px) {
+    bottom: 152px;
+    left: 24px;
+    width: 378px;
+  }
 }
 
 .hero__info {
@@ -221,6 +227,11 @@
   display: flex;
   align-items: center;
   gap: 14px;
+
+  @media screen and (min-width: 768px) {
+    bottom: 64px;
+    left: 32px;
+  }
 }
 
 .hero__price {
@@ -231,6 +242,10 @@
   text-transform: uppercase;
   color: $colorDarkBlue;
   margin-bottom: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+  }
 }
 
 .hero__description {
@@ -239,4 +254,9 @@
   letter-spacing: -0.04em;
   color: $colorDarkBlue;
   margin-bottom: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    width: 210px;
+  }
 }
