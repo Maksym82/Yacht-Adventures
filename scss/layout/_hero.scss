@@ -131,7 +131,7 @@
   height: 427px;
 
   @media screen and (min-width: 768px) {
-   
+    background-image: url('../../images/hero/hero-tablet-bg.png');
     height: 598px;
   }
 }
@@ -172,11 +172,20 @@
 .hero__client-list {
   display: flex;
   margin-bottom: 11px;
+
+  @media screen and (min-width: 768px) {
+    width: 154px;
+  }
 }
 
 .hero__client {
   width: 48px;
   height: 48px;
+
+  @media screen and (min-width: 768px) {
+    width: 56px;
+    height: 56px;
+  }
 }
 
 .hero__client-text {
