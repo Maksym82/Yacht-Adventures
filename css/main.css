@@ -330,6 +330,7 @@ ul {
   .hero__image-container {
     background-image: url("../../images/hero/hero-tablet-bg.png");
     height: 598px;
+    width: 426px;
   }
 }
 
@@ -357,7 +358,7 @@ ul {
 @media screen and (min-width: 768px) {
   .hero__img-ceo {
     top: 32px;
-    right: 144px;
+    right: -145px;
   }
 }
 
