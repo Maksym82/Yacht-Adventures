@@ -1,7 +1,4 @@
-.header {
-  position: absolute;
-  width: 100%;
-}
+
 
 .header__container {
   max-width: 375px;
@@ -12,7 +9,7 @@
   margin: 0 auto;
   background-color: $colorDarkBlue;
   border-bottom: 1px solid rgba(246, 245, 239, 0.2);
-
+  
   @media screen and (min-width: 768px) {
     max-width: 768px;
     padding: 32px;
@@ -90,3 +87,9 @@
   color: $colorWhite;
   text-decoration: none;
 }
+
+// .header__line {
+//   width: 335px;
+//   height: 1px;
+  
+// }
