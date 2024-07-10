@@ -510,6 +510,11 @@ ul {
   margin: 0 auto;
   padding-bottom: 80px;
 }
+@media screen and (min-width: 768px) {
+  .about {
+    max-width: 768px;
+  }
+}
 
 .about__text {
   font-weight: 500;
@@ -518,17 +523,30 @@ ul {
   letter-spacing: -0.04em;
   margin-bottom: 40px;
 }
+@media screen and (min-width: 768px) {
+  .about__text {
+    font-size: 32px;
+    width: 490px;
+    margin-bottom: 32px;
+  }
+}
 
 .about__span {
   font-style: italic;
   font-weight: 500;
   font-size: 24px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: -0.04em;
   background: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .about__span {
+    font-size: 32px;
+    margin-right: 5px;
+  }
 }
 
 .about__list {
