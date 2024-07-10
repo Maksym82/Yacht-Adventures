@@ -28,11 +28,15 @@
     <!--Header-->
     <header class="header">
       <div class="header__container">
-        <a class="header__logo" href="index.html">
-          <img class="logo" src="./images/logo.svg" alt="logo" />
-          <img class="logo-text" src="./images/logo-text.svg" alt="logo text" />
-        </a>
         <nav class="header__nav">
+          <a class="header__logo" href="index.html">
+            <img class="logo" src="./images/logo.svg" alt="logo" />
+            <img
+              class="logo-text"
+              src="./images/logo-text.svg"
+              alt="logo text"
+            />
+          </a>
           <ul class="header__nav-list">
             <li>
               <a class="header__nav-link" href="">About</a>
@@ -44,15 +48,14 @@
               <a class="header__nav-link" href="">Reviews</a>
             </li>
           </ul>
+          <button class="header__open-menu">
+            <svg class="header-icon-menu">
+              <use href="./images/icons.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
         </nav>
-        <button class="header__open-menu">
-          <svg class="header-icon-menu">
-            <use href="./images/icons.svg#icon-burger-menu"></use>
-          </svg>
-        </button>
-        <!-- <div class="header__line"></div> -->
+        <div class="header__line"></div>
       </div>
-      
     </header>
     <main>
       <!--Hero-->
