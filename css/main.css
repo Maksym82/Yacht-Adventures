@@ -690,4 +690,72 @@ ul {
     left: 340px;
     right: auto;
   }
+}
+
+.about__rental {
+  position: absolute;
+  bottom: -50px;
+  width: 335px;
+  height: 203px;
+}
+
+.about__rental-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.about__rental-title::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 200px;
+  height: 230px;
+  top: -38%;
+  left: -6%;
+  background-color: #91afba;
+}
+
+.about__rental-title::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 90px;
+  height: 90px;
+  top: 16%;
+  left: 79%;
+  background-color: #a6a9b2;
+}
+
+.about__rental-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #f6f5ef;
+  border-radius: 60px;
+  width: 131px;
+  height: 43px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+  cursor: pointer;
+  color: #f6f5ef;
 }/*# sourceMappingURL=main.css.map */

@@ -104,7 +104,7 @@
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
-}
+  }
 
   @media screen and (min-width: 1280px) {
     position: absolute;
@@ -126,4 +126,62 @@
     left: 340px;
     right: auto;
   }
+}
+
+.about__rental {
+  position: absolute;
+  bottom: -50px;
+  width: 335px;
+  height: 203px;
+}
+
+.about__rental-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.about__rental-title::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: rotate(-45deg);
+  width: 200px;
+  height: 230px;
+  top: -38%;
+  left: -6%;
+  background-color: #91afba;
+}
+
+.about__rental-title::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: rotate(-45deg);
+  width: 90px;
+  height: 90px;
+  top: 16%;
+  left: 79%;
+  background-color: #a6a9b2;
+}
+
+.about__rental-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $colorWhite;
+  border-radius: 60px;
+  width: 131px;
+  height: 43px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+  cursor: pointer;
+  color: $colorWhite;
 }
