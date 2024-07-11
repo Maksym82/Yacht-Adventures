@@ -604,14 +604,36 @@ ul {
   }
 }
 
+.about__image-list {
+  position: relative;
+}
+
 .about__img-first {
   margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .about__img-first {
+    margin-bottom: 32px;
+  }
 }
 
 .about__img-second {
   margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .about__img-second {
+    margin-bottom: 0;
+    margin-right: 32px;
+  }
+}
 
 .about__img-third {
   margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .about__img-third {
+    position: absolute;
+    right: 103px;
+    bottom: -155px;
+  }
 }/*# sourceMappingURL=main.css.map */
