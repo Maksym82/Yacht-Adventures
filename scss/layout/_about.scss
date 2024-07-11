@@ -14,10 +14,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .about__container-text {
-        display: flex;
-        justify-content: space-between;
-    }
+  .about__container-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+  }
 }
 
 .about__text {
@@ -92,6 +93,10 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 32px;
   }
+
+  @media screen and (min-width: 1280px) {
+    margin: 0 auto;
+  }
 }
 
 .about__img-second {
@@ -99,7 +104,11 @@
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
-    margin-right: 32px;
+}
+
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    bottom: -70px;
   }
 }
 
@@ -110,5 +119,11 @@
     position: absolute;
     right: 103px;
     bottom: -155px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    bottom: -270px;
+    left: 340px;
+    right: auto;
   }
 }
