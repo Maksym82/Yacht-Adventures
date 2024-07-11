@@ -698,6 +698,13 @@ ul {
   width: 335px;
   height: 203px;
 }
+@media screen and (min-width: 768px) {
+  .about__rental {
+    width: 641px;
+    height: 343px;
+    bottom: -400px;
+  }
+}
 
 .about__rental-title {
   font-weight: 500;
@@ -705,6 +712,13 @@ ul {
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .about__rental-title {
+    font-size: 70px;
+    margin-bottom: 64px;
+    margin-left: 32px;
+  }
 }
 
 .about__rental-title::before {
@@ -721,6 +735,14 @@ ul {
   left: -6%;
   background-color: #91afba;
 }
+@media screen and (min-width: 768px) {
+  .about__rental-title::before {
+    width: 230px;
+    height: 250px;
+    left: -2%;
+    top: -17%;
+  }
+}
 
 .about__rental-title::after {
   content: "";
@@ -735,6 +757,14 @@ ul {
   top: 16%;
   left: 79%;
   background-color: #a6a9b2;
+}
+@media screen and (min-width: 768px) {
+  .about__rental-title::after {
+    width: 150px;
+    height: 150px;
+    left: 61%;
+    top: -2%;
+  }
 }
 
 .about__rental-link {
@@ -758,4 +788,11 @@ ul {
   text-decoration: none;
   cursor: pointer;
   color: #f6f5ef;
+}
+@media screen and (min-width: 768px) {
+  .about__rental-link {
+    width: 153px;
+    height: 48px;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */
