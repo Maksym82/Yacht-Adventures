@@ -252,7 +252,35 @@
               </li>
             </ul>
           </div>
-
+          <ul class="about__image-list">
+            <li class="about__iamge-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/about/about-1-yacht-desktop@1x.png 1x,
+                    ./images/about/about-1-yacht-desktop@2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/about/about-1-yacht-tablet@1x.png 1x,
+                    ./images/about/about-1-yacht-tablet@2x.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <img
+                  srcset="
+                    ./images/about/about-1-yacht-mobile@1x.png 1x,
+                    ./images/about/about-1-yacht-mobile@2x.png 2x
+                  "
+                  src="./images/about/about-1-yacht-mobile.png"
+                  alt="yacht"
+                  class="about__img"
+                />
+              </picture>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
