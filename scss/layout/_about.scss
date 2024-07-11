@@ -139,6 +139,13 @@
     height: 343px;
     bottom: -400px;
   }
+
+  @media screen and (min-width: 1280px) {
+    width: 882px;
+    height: 442px;
+    bottom: -600px;
+    left: 170px;
+  }
 }
 
 .about__rental-title {
@@ -152,6 +159,12 @@
     font-size: 70px;
     margin-bottom: 64px;
     margin-left: 32px;
+    letter-spacing: 0;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 100px;
+    margin-left: 0;
   }
 }
 
