@@ -173,6 +173,20 @@
   top: 12%;
   left: -37%;
   background: rgba(145, 175, 186, 0.6);
+
+  @media screen and (min-width: 768px) {
+    width: 290px;
+    height: 290px;
+    top: 42%;
+    left: -35%;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 460px;
+    height: 460px;
+    top: 31%;
+    left: -11%;
+  }
 }
 
 .hero__img-ceo {
