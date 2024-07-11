@@ -694,7 +694,8 @@ ul {
 
 .about__rental {
   position: absolute;
-  bottom: -50px;
+  bottom: -80px;
+  left: 20px;
   width: 335px;
   height: 203px;
 }
@@ -758,6 +759,14 @@ ul {
     top: -17%;
   }
 }
+@media screen and (min-width: 1280px) {
+  .about__rental-title::before {
+    width: 350px;
+    height: 250px;
+    left: 9%;
+    top: -5%;
+  }
+}
 
 .about__rental-title::after {
   content: "";
@@ -779,6 +788,14 @@ ul {
     height: 150px;
     left: 61%;
     top: -2%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about__rental-title::after {
+    width: 200px;
+    height: 200px;
+    left: 59%;
+    top: -5%;
   }
 }
 
