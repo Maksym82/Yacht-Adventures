@@ -1,5 +1,6 @@
 // Utils
 @import './utils/variables';
+@import './utils/placeholders';
 
 // Base
 @import './base/base';
@@ -7,6 +8,7 @@
 
 // Components
 @import './components/container';
+@import './components/section-title';
 
 // Layout
 @import './layout/header';
