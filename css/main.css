@@ -602,4 +602,16 @@ ul {
     font-size: 16px;
     width: 183px;
   }
+}
+
+.about__img-first {
+  margin-bottom: 24px;
+}
+
+.about__img-second {
+  margin-bottom: 24px;
+}
+
+.about__img-third {
+  margin-left: auto;
 }/*# sourceMappingURL=main.css.map */
