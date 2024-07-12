@@ -719,7 +719,8 @@ ul {
   .yachts__rental {
     width: 641px;
     height: 343px;
-    bottom: -400px;
+    bottom: -310px;
+    left: 35px;
   }
 }
 @media screen and (min-width: 1280px) {
