@@ -693,7 +693,6 @@ ul {
 }
 
 .yachts {
-  position: relative;
   max-width: 375px;
   margin: 0 auto;
 }
@@ -706,6 +705,10 @@ ul {
   .yachts {
     max-width: 1280px;
   }
+}
+
+.yachts > .container {
+  position: relative;
 }
 
 .yachts__rental {
@@ -769,8 +772,8 @@ ul {
 }
 @media screen and (min-width: 768px) {
   .yachts__rental-title::before {
-    width: 230px;
-    height: 250px;
+    width: 150px;
+    height: 180px;
     left: -2%;
     top: -17%;
   }
