@@ -25,8 +25,8 @@
   @media screen and (min-width: 768px) {
     width: 641px;
     height: 343px;
-    bottom: -310px;
-    left: 35px;
+    top: -440px;
+    left: 64px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -46,8 +46,6 @@
   @media screen and (min-width: 768px) {
     font-size: 70px;
     margin-bottom: 64px;
-    margin-left: 32px;
-    letter-spacing: 0;
   }
 
   @media screen and (min-width: 1280px) {
@@ -89,7 +87,7 @@
   border-radius: 50%;
   filter: blur(100px);
   transform: rotate(-45deg);
-  width: 90px;
+  width: 50px;
   height: 90px;
   top: 16%;
   left: 79%;
