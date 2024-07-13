@@ -544,7 +544,7 @@ ul {
 .about {
   max-width: 375px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom: 161px;
 }
 @media screen and (min-width: 768px) {
   .about {
@@ -713,7 +713,7 @@ ul {
 
 .yachts__rental {
   position: absolute;
-  bottom: -80px;
+  top: -280px;
   left: 20px;
   width: 335px;
   height: 203px;
@@ -846,4 +846,8 @@ ul {
     height: 48px;
     font-size: 18px;
   }
+}
+
+.yachts__image {
+  border-radius: 24px;
 }/*# sourceMappingURL=main.css.map */

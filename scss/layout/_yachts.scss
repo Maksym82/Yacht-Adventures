@@ -17,7 +17,7 @@
 
 .yachts__rental {
   position: absolute;
-  bottom: -80px;
+  top: -280px;
   left: 20px;
   width: 335px;
   height: 203px;
@@ -131,4 +131,8 @@
     height: 48px;
     font-size: 18px;
   }
+}
+
+.yachts__image {
+  border-radius: 24px;
 }
