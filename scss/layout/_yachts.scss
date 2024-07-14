@@ -148,9 +148,16 @@
 
 .yacht__info {
   display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.yacht__info-title {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
+  margin-bottom: 24px;
 }
 
 .yachts__name {
@@ -168,7 +175,29 @@
   line-height: 118%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  // color: var(--white);
   opacity: 0.5;
   margin-bottom: 0;
+}
+
+.yachts__description {
+  display: flex;
+  gap: 32px;
+}
+
+.yachts__item {
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.yachts__item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.yachts__item > p {
+  margin-bottom: 0;
+}
+
+.yachts__category {
+  text-transform: uppercase;
 }
