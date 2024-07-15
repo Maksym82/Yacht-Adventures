@@ -1,5 +1,3 @@
-
-
 var swiper = new Swiper(".my-swiper", {
     direction: 'horizontal',
     loop: true,
