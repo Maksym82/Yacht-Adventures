@@ -854,6 +854,13 @@ ul {
   height: 529px;
 }
 
+.swiper-slide {
+  width: 335px;
+  height: 469px;
+  border-radius: 24px;
+  background-color: #1f212d;
+}
+
 .yachts__image {
   border-radius: 24px;
   margin: 18px auto 0;
