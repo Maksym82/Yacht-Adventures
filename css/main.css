@@ -857,12 +857,12 @@ ul {
 .swiper-slide {
   width: 335px;
   height: 469px;
-  border-radius: 26px;
+  border-radius: 24px;
   background-color: #1f212d;
 }
 
 .yachts__image {
-  border-radius: 24px;
+  border-radius: 26px;
   margin: 18px auto 0;
   margin-bottom: 24px;
 }
