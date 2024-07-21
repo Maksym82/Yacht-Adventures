@@ -566,7 +566,7 @@ ul {
 @media screen and (min-width: 1280px) {
   .about {
     max-width: 1280px;
-    padding-bottom: 770px;
+    padding-bottom: 0;
   }
 }
 
@@ -718,6 +718,7 @@ ul {
 @media screen and (min-width: 1280px) {
   .yachts {
     max-width: 1280px;
+    padding-top: 770px;
   }
 }
 
