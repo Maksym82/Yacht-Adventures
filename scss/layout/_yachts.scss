@@ -245,8 +245,6 @@
   left: 170px;
 }
 
-
-
 .swiper-button-prev,
 .swiper-button-next {
   width: 46px;
@@ -259,6 +257,14 @@
 
 .icon-arrow {
   fill: $colorWhite;
+}
+
+.swiper-button-prev svg {
+  width: 18px;
+  height: 8px;
+}
+
+.swiper-button-next svg {
   width: 18px;
   height: 8px;
 }

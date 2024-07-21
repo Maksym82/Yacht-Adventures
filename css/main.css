@@ -991,6 +991,14 @@ ul {
 
 .icon-arrow {
   fill: #f6f5ef;
+}
+
+.swiper-button-prev svg {
+  width: 18px;
+  height: 8px;
+}
+
+.swiper-button-next svg {
   width: 18px;
   height: 8px;
 }/*# sourceMappingURL=main.css.map */
