@@ -237,8 +237,15 @@
 
 .swiper-button-prev {
   position: absolute;
-
+  left: 110px;
 }
+
+.swiper-button-next {
+  position: absolute;
+  left: 170px;
+}
+
+
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -246,7 +253,12 @@
   height: 36px;
   border-radius: 60px;
   border: 1px solid $colorWhite;
-  border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.icon-arrow {
+  fill: $colorWhite;
+  width: 18px;
+  height: 8px;
 }

@@ -971,6 +971,12 @@ ul {
 
 .swiper-button-prev {
   position: absolute;
+  left: 110px;
+}
+
+.swiper-button-next {
+  position: absolute;
+  left: 170px;
 }
 
 .swiper-button-prev,
@@ -979,7 +985,12 @@ ul {
   height: 36px;
   border-radius: 60px;
   border: 1px solid #f6f5ef;
-  border: none;
   background-color: transparent;
   cursor: pointer;
+}
+
+.icon-arrow {
+  fill: #f6f5ef;
+  width: 18px;
+  height: 8px;
 }/*# sourceMappingURL=main.css.map */
