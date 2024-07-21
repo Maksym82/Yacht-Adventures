@@ -312,6 +312,9 @@ ul {
   text-decoration: none;
   cursor: pointer;
 }
+.button__first:hover {
+  background-color: #88b3b9;
+}
 @media screen and (min-width: 768px) {
   .button__first {
     width: 150px;
@@ -341,6 +344,9 @@ ul {
   color: #f6f5ef;
   text-decoration: none;
   cursor: pointer;
+}
+.button__second:hover {
+  color: #93abae;
 }
 @media screen and (min-width: 768px) {
   .button__second {

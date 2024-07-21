@@ -104,6 +104,10 @@
   text-decoration: none;
   cursor: pointer;
 
+  &:hover {
+    background-color: #88b3b9;
+  }
+
   @media screen and (min-width: 768px) {
     width: 150px;
     height: 48px;
@@ -126,6 +130,10 @@
   color: $colorWhite;
   text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: $colorLightGreen;
+  }
 
   @media screen and (min-width: 768px) {
     width: 117px;
