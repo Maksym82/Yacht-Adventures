@@ -870,6 +870,13 @@ ul {
     height: 576px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .swiper-block {
+    height: 508px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 
 .swiper-slide {
   position: relative;
@@ -985,6 +992,11 @@ ul {
   position: absolute;
   bottom: 15px;
 }
+@media screen and (min-width: 1280px) {
+  .swiper-btn-box {
+    position: static;
+  }
+}
 
 .swiper-button-prev {
   position: absolute;
@@ -995,6 +1007,11 @@ ul {
     left: 300px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .swiper-button-prev {
+    left: 0;
+  }
+}
 
 .swiper-button-next {
   position: absolute;
@@ -1003,6 +1020,12 @@ ul {
 @media screen and (min-width: 768px) {
   .swiper-button-next {
     left: 360px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .swiper-button-next {
+    right: 0;
+    left: auto;
   }
 }
 
@@ -1020,6 +1043,12 @@ ul {
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   background-color: #93abae;
+}
+@media screen and (min-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 50px;
+  }
 }
 
 .icon-arrow {
