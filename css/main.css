@@ -311,6 +311,8 @@ ul {
   color: #f6f5ef;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
 }
 .button__first:hover {
   background-color: #88b3b9;
@@ -344,6 +346,8 @@ ul {
   color: #f6f5ef;
   text-decoration: none;
   cursor: pointer;
+  -webkit-transition: color 300ms linear;
+  transition: color 300ms linear;
 }
 .button__second:hover {
   color: #93abae;

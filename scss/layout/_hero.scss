@@ -103,6 +103,7 @@
   color: $colorWhite;
   text-decoration: none;
   cursor: pointer;
+  transition: background-color 300ms linear;
 
   &:hover {
     background-color: #88b3b9;
@@ -130,6 +131,7 @@
   color: $colorWhite;
   text-decoration: none;
   cursor: pointer;
+  transition: color 300ms linear;
 
   &:hover {
     color: $colorLightGreen;
