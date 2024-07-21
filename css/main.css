@@ -722,6 +722,11 @@ ul {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .yachts-bg {
+    background-image: url("../../images/yacht/Mask group.svg");
+  }
+}
 .yachts > .container {
   position: relative;
 }
