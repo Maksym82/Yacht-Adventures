@@ -1,9 +1,11 @@
 .yachts {
   max-width: 375px;
   margin: 0 auto;
+  padding-bottom: 80px;
 
   @media screen and (min-width: 768px) {
     max-width: 768px;
+    padding-bottom: 100px;
   }
 
   @media screen and (min-width: 1280px) {
@@ -135,6 +137,10 @@
   width: auto;
   position: relative;
   height: 529px;
+
+  @media screen and (min-width: 768px) {
+    height: 576px;
+  }
 }
 
 .swiper-slide {
@@ -232,17 +238,25 @@
 
 .swiper-btn-box {
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
 }
 
 .swiper-button-prev {
   position: absolute;
   left: 110px;
+
+  @media screen and (min-width: 768px) {
+    left: 300px;
+  }
 }
 
 .swiper-button-next {
   position: absolute;
   left: 170px;
+
+  @media screen and (min-width: 768px) {
+    left: 360px;
+  }
 }
 
 .swiper-button-prev,
@@ -253,6 +267,11 @@
   border: 1px solid $colorWhite;
   background-color: transparent;
   cursor: pointer;
+  transition: background-color 300ms linear;
+
+  &:hover {
+    background-color: $colorLightGreen;
+  }
 }
 
 .icon-arrow {

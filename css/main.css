@@ -707,10 +707,12 @@ ul {
 .yachts {
   max-width: 375px;
   margin: 0 auto;
+  padding-bottom: 80px;
 }
 @media screen and (min-width: 768px) {
   .yachts {
     max-width: 768px;
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -863,6 +865,11 @@ ul {
   position: relative;
   height: 529px;
 }
+@media screen and (min-width: 768px) {
+  .swiper-block {
+    height: 576px;
+  }
+}
 
 .swiper-slide {
   position: relative;
@@ -976,17 +983,27 @@ ul {
 
 .swiper-btn-box {
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
 }
 
 .swiper-button-prev {
   position: absolute;
   left: 110px;
 }
+@media screen and (min-width: 768px) {
+  .swiper-button-prev {
+    left: 300px;
+  }
+}
 
 .swiper-button-next {
   position: absolute;
   left: 170px;
+}
+@media screen and (min-width: 768px) {
+  .swiper-button-next {
+    left: 360px;
+  }
 }
 
 .swiper-button-prev,
@@ -997,6 +1014,12 @@ ul {
   border: 1px solid #f6f5ef;
   background-color: transparent;
   cursor: pointer;
+  -webkit-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #93abae;
 }
 
 .icon-arrow {
