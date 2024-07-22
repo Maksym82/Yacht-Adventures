@@ -1069,4 +1069,37 @@ ul {
 .swiper-button-next svg {
   width: 18px;
   height: 8px;
+}
+
+.services {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.services__first-side {
+  position: relative;
+}
+
+.services__img {
+  border-radius: 40px;
+  margin-bottom: 24px;
+}
+
+.services__button {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+  border-radius: 60px;
+  padding: 14px 28px;
+  width: 95px;
+  height: 43px;
+  background-color: #f6f5ef;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: #11131f;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
