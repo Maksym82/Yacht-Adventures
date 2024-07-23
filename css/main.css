@@ -1076,6 +1076,12 @@ ul {
   margin: 0 auto;
   padding-bottom: 80px;
 }
+@media screen and (min-width: 768px) {
+  .services {
+    max-width: 768px;
+    padding-bottom: 100px;
+  }
+}
 
 .services__list {
   display: -webkit-box;
@@ -1096,6 +1102,11 @@ ul {
   border-radius: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .services__item:nth-child(2) {
+    margin-left: auto;
+  }
+}
 .services__button {
   position: absolute;
   left: 24px;
