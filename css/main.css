@@ -1094,6 +1094,25 @@ ul {
   gap: 24px;
 }
 
+.services__item {
+  position: relative;
+}
+
+.services__item:nth-child(1)::before {
+  position: absolute;
+  content: "";
+  border-radius: 60%;
+  -webkit-filter: blur(100px);
+          filter: blur(100px);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #91afba;
+  top: 106%;
+  left: -23%;
+  width: 230px;
+  height: 230px;
+}
+
 .services__first-side {
   position: relative;
 }

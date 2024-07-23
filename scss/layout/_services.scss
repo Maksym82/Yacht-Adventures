@@ -15,13 +15,29 @@
   gap: 24px;
 }
 
+.services__item {
+  position: relative;
+}
+
+.services__item:nth-child(1)::before {
+  position: absolute;
+  content: "";
+  border-radius: 60%;
+  filter: blur(100px);
+  transform: rotate(-45deg);
+  background-color: #91afba;
+  top: 106%;
+  left: -23%;
+  width: 230px;
+  height: 230px;
+}
+
 .services__first-side {
   position: relative;
 }
 
 .services__img {
   border-radius: 40px;
-  
 }
 
 @media screen and (min-width: 768px) {
