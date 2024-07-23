@@ -1173,4 +1173,22 @@ ul {
     bottom: 32px;
     font-size: 18px;
   }
+}
+
+.rent {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.title__box {
+  margin-bottom: 40px;
+}
+
+.rent__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
 }/*# sourceMappingURL=main.css.map */
