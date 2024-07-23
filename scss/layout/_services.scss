@@ -11,7 +11,7 @@
 }
 
 .services__first-side {
-    position: relative;
+  position: relative;
 }
 
 .services__img {
@@ -32,4 +32,29 @@
   color: $colorDarkBlue;
   border: none;
   cursor: pointer;
+}
+
+
+
+// .services__back-side {
+//   position: relative;
+// }
+
+.services__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 18px;
+  padding: 20px 10px;
+  opacity: 0;
+}
+
+.services__first-side:hover,
+.services__first-side:focus {
+  transform: translatey(0);
+  opacity: 1;
 }
