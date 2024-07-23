@@ -754,6 +754,7 @@
         <div class="container">
           <h2 class="services__title visually-hidden">Our services</h2>
           <ul class="services__list">
+            <!--Image 1-->
             <li class="services__item">
               <div class="services__thumb">
                 <div class="services__first-side">
@@ -788,6 +789,7 @@
                 </div>
               </div>
             </li>
+            <!--Image 2-->
             <li class="services__item">
               <div class="services__thumb">
                 <div class="services__first-side">
@@ -819,6 +821,41 @@
                     />
                   </picture>
                   <button class="services__button" type="button">Fishing</button>
+                </div>
+              </div>
+            </li>
+            <!--Image 3-->
+            <li class="services__item">
+              <div class="services__thumb">
+                <div class="services__first-side">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/services/services-sunbathing-desktop@1x.jpg 1x,
+                        ./images/services/services-sunbathing-desktop@2x.jpg 2x
+                      "
+                      media="(min-width: 1280px)"
+                      type="image/jpg"
+                    />
+                    <source
+                      srcset="
+                        ./images/services/services-sunbathing-tablet@1x.jpg 1x,
+                        ./images/services/services-sunbathing-tablet@2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                      type="image/jpg"
+                    />
+                    <img
+                      srcset="
+                        ./images/services/services-sunbathing-mobile@1x.jpg 1x,
+                        ./images/services/services-sunbathing-mobile@2x.jpg 2x
+                      "
+                      src="./images/services/services-sunbathing-mobile.jpg"
+                      alt="diving"
+                      class="services__img"
+                    />
+                  </picture>
+                  <button class="services__button" type="button">Sunbathing</button>
                 </div>
               </div>
             </li>
