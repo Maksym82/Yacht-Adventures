@@ -899,6 +899,60 @@
               />
             </picture>
           </div>
+          <form class="form">
+            <div class="form__field">
+              <label class="form__label" for="name"
+                >Full Name
+                <input
+                  class="form__input"
+                  type="text"
+                  name="user-name"
+                  id="name"
+                  placeholder="Maksym"
+                  pattern="[A-Za-z]{3,}"
+                  title="The name must contain at least three Latin letters"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form__field">
+              <label class="form__label" for="email"
+                >Email
+                <input
+                  class="form__input"
+                  type="email"
+                  name="user-email"
+                  id="email"
+                  placeholder="example@mail.com"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form__field">
+              <label class="form__label" for="tel"
+                >Phone number
+                <input
+                  class="form__input"
+                  type="tel"
+                  name="user-tel"
+                  id="tel"
+                  placeholder="+380123456789"
+                  pattern="[\d+]{10,}"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form__comment">
+              <label class="form__label" for="comment"
+                >Comment
+                <textarea
+                  class="form__textarea"
+                  name="user-comment"
+                  id="comment"
+                ></textarea>
+              </label>
+            </div>
+          </form>
         </div>
       </section>
     </main>

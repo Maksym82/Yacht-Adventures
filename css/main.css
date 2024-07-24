@@ -1191,4 +1191,125 @@ ul {
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin-bottom: 16px;
+}
+
+.form__field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form__label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  color: #f6f5ef;
+}
+
+.form__label:focus-within {
+  color: #93abae;
+}
+
+.form__input {
+  width: 335px;
+  color: #f6f5ef;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #f6f5ef;
+  outline: none;
+  -webkit-transition: border 300ms linear, border-radius 300ms linear;
+  transition: border 300ms linear, border-radius 300ms linear;
+}
+
+.form__input:focus {
+  border: 1px solid #93abae;
+  border-radius: 4px;
+}
+
+.form__input::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+.form__input::-moz-placeholder {
+  opacity: 0;
+  -moz-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+.form__input:-ms-input-placeholder {
+  opacity: 0;
+  -ms-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+.form__input::-ms-input-placeholder {
+  opacity: 0;
+  -ms-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+.form__input::placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+}
+
+.form__input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.form__input:focus::-moz-placeholder {
+  opacity: 1;
+}
+
+.form__input:focus:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.form__input:focus::-ms-input-placeholder {
+  opacity: 1;
+}
+
+.form__input:focus::placeholder {
+  opacity: 1;
+}
+
+.form__comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 335px;
+}
+
+.form__textarea {
+  width: 335px;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid #f6f5ef;
+  padding-left: 6px;
+  background-color: transparent;
+  color: #f6f5ef;
+  font-size: 14px;
+  outline: none;
+  resize: none;
+  -webkit-transition: border 400ms linear, border-radius 400ms linear;
+  transition: border 400ms linear, border-radius 400ms linear;
+}
+
+.form__textarea:focus {
+  border: 1px solid #93abae;
+  border-radius: 4px;
 }/*# sourceMappingURL=main.css.map */

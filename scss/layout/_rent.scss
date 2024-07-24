@@ -5,7 +5,7 @@
 }
 
 .title__box {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .rent__title {
@@ -14,4 +14,73 @@
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin-bottom: 16px;
+}
+
+// Form
+.form__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form__label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  color: $colorWhite;
+}
+
+.form__label:focus-within {
+  color: $colorLightGreen;
+}
+
+.form__input {
+  width: 335px;
+  color: $colorWhite;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $colorWhite;
+  outline: none;
+  transition: border 300ms linear, border-radius 300ms linear;
+}
+
+.form__input:focus {
+  border: 1px solid $colorLightGreen;
+  border-radius: 4px;
+}
+
+.form__input::placeholder {
+  opacity: 0;
+  transition: opacity 400ms linear;
+}
+
+.form__input:focus::placeholder {
+  opacity: 1;
+}
+
+.form__comment {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+}
+
+.form__textarea {
+  width: 335px;
+  height: 60px;
+  border: none;
+  border-bottom: 1px solid $colorWhite;
+  padding-left: 6px;
+  background-color: transparent;
+  color: $colorWhite;
+  font-size: 14px;
+  outline: none;
+  resize: none;
+  transition: border 400ms linear, border-radius 400ms linear;
+}
+
+.form__textarea:focus {
+  border: 1px solid $colorLightGreen;
+  border-radius: 4px;
 }
