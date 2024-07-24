@@ -44,12 +44,26 @@
 // Form
 .form {
   width: 335px;
-  height: 313px;
+  height: 327px;
+  position: relative;
 
   @media screen and (min-width: 768px) {
     width: 364px;
     height: 351px;
   }
+}
+
+.form::after {
+  content: "";
+  position: absolute;
+  top: 58%;
+  left: 73%;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: rotate(-45deg);
+  width: 142px;
+  height: 142px;
+  background-color: #91afba;
 }
 
 .form__field {
