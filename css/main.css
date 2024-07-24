@@ -1292,6 +1292,7 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 335px;
+  margin-bottom: 24px;
 }
 
 .form__textarea {
@@ -1312,4 +1313,33 @@ ul {
 .form__textarea:focus {
   border: 1px solid #93abae;
   border-radius: 4px;
+}
+
+.form__button {
+  border: 1px solid #f6f5ef;
+  border-radius: 60px;
+  width: 123px;
+  height: 43px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: #f6f5ef;
+  fill: #f6f5ef;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: border 300ms linear, color 300ms linear;
+  transition: border 300ms linear, color 300ms linear;
+}
+.form__button:hover {
+  border: 1px solid #93abae;
+}
+
+.form__button-icon {
+  width: 18px;
+  height: 8px;
+  fill: #f6f5ef;
+  margin-left: 16px;
+  -webkit-transition: fill 300ms linear;
+  transition: fill 300ms linear;
 }/*# sourceMappingURL=main.css.map */

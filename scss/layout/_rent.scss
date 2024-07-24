@@ -64,6 +64,7 @@
   display: flex;
   flex-direction: column;
   width: 335px;
+  margin-bottom: 24px;
 }
 
 .form__textarea {
@@ -83,4 +84,32 @@
 .form__textarea:focus {
   border: 1px solid $colorLightGreen;
   border-radius: 4px;
+}
+
+.form__button {
+  border: 1px solid $colorWhite;
+  border-radius: 60px;
+  width: 123px;
+  height: 43px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  color: $colorWhite;
+  fill: $colorWhite;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border 300ms linear, color 300ms linear;
+
+  &:hover {
+    border: 1px solid $colorLightGreen;
+  }
+}
+
+.form__button-icon {
+  width: 18px;
+  height: 8px;
+  fill: $colorWhite;
+  margin-left: 16px;
+  transition: fill 300ms linear;
 }
