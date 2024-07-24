@@ -1328,8 +1328,8 @@ ul {
   fill: #f6f5ef;
   background-color: transparent;
   cursor: pointer;
-  -webkit-transition: border 300ms linear, color 300ms linear;
-  transition: border 300ms linear, color 300ms linear;
+  -webkit-transition: border 300ms linear;
+  transition: border 300ms linear;
 }
 .form__button:hover {
   border: 1px solid #93abae;

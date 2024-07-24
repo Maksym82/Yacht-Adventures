@@ -99,7 +99,7 @@
   fill: $colorWhite;
   background-color: transparent;
   cursor: pointer;
-  transition: border 300ms linear, color 300ms linear;
+  transition: border 300ms linear;
 
   &:hover {
     border: 1px solid $colorLightGreen;
