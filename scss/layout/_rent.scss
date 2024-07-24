@@ -2,10 +2,30 @@
   max-width: 375px;
   margin: 0 auto;
   padding-bottom: 80px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rent__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 69px;
+    width: 704px;
+    height: 351px;
+  }
 }
 
 .title__box {
   margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    width: 271px;
+    margin-bottom: 0;
+  }
 }
 
 .rent__title {
@@ -14,13 +34,32 @@
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 60px;
+    margin-bottom: 32px;
+  }
 }
 
 // Form
+.form {
+  width: 335px;
+  height: 313px;
+
+  @media screen and (min-width: 768px) {
+    width: 364px;
+    height: 351px;
+  }
+}
+
 .form__field {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 24px;
+  }
 }
 
 .form__label {
@@ -29,6 +68,10 @@
   line-height: 1.2;
   letter-spacing: -0.04em;
   color: $colorWhite;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 .form__label:focus-within {
@@ -44,6 +87,10 @@
   border-bottom: 1px solid $colorWhite;
   outline: none;
   transition: border 300ms linear, border-radius 300ms linear;
+
+  @media screen and (min-width: 768px) {
+    width: 364px;
+  }
 }
 
 .form__input:focus {
@@ -65,6 +112,10 @@
   flex-direction: column;
   width: 335px;
   margin-bottom: 24px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 32px;
+  }
 }
 
 .form__textarea {
@@ -79,6 +130,11 @@
   outline: none;
   resize: none;
   transition: border 400ms linear, border-radius 400ms linear;
+
+  @media screen and (min-width: 768px) {
+    width: 364px;
+    height: 58px;
+  }
 }
 
 .form__textarea:focus {
@@ -100,6 +156,12 @@
   background-color: transparent;
   cursor: pointer;
   transition: border 300ms linear;
+
+  @media screen and (min-width: 768px) {
+    width: 132px;
+    height: 48px;
+    font-size: 18px
+  }
 
   &:hover {
     border: 1px solid $colorLightGreen;

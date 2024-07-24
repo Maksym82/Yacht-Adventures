@@ -1180,9 +1180,34 @@ ul {
   margin: 0 auto;
   padding-bottom: 80px;
 }
+@media screen and (min-width: 768px) {
+  .rent {
+    max-width: 768px;
+    padding-bottom: 100px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .rent__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 69px;
+    width: 704px;
+    height: 351px;
+  }
+}
 .title__box {
   margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .title__box {
+    width: 271px;
+    margin-bottom: 0;
+  }
 }
 
 .rent__title {
@@ -1191,6 +1216,23 @@ ul {
   line-height: 1.1;
   letter-spacing: -0.04em;
   margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .rent__title {
+    font-size: 60px;
+    margin-bottom: 32px;
+  }
+}
+
+.form {
+  width: 335px;
+  height: 313px;
+}
+@media screen and (min-width: 768px) {
+  .form {
+    width: 364px;
+    height: 351px;
+  }
 }
 
 .form__field {
@@ -1203,6 +1245,11 @@ ul {
           flex-direction: column;
   margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .form__field {
+    margin-bottom: 24px;
+  }
+}
 
 .form__label {
   font-weight: 500;
@@ -1210,6 +1257,11 @@ ul {
   line-height: 1.2;
   letter-spacing: -0.04em;
   color: #f6f5ef;
+}
+@media screen and (min-width: 768px) {
+  .form__label {
+    font-size: 16px;
+  }
 }
 
 .form__label:focus-within {
@@ -1226,6 +1278,11 @@ ul {
   outline: none;
   -webkit-transition: border 300ms linear, border-radius 300ms linear;
   transition: border 300ms linear, border-radius 300ms linear;
+}
+@media screen and (min-width: 768px) {
+  .form__input {
+    width: 364px;
+  }
 }
 
 .form__input:focus {
@@ -1294,6 +1351,11 @@ ul {
   width: 335px;
   margin-bottom: 24px;
 }
+@media screen and (min-width: 768px) {
+  .form__comment {
+    margin-bottom: 32px;
+  }
+}
 
 .form__textarea {
   width: 335px;
@@ -1308,6 +1370,12 @@ ul {
   resize: none;
   -webkit-transition: border 400ms linear, border-radius 400ms linear;
   transition: border 400ms linear, border-radius 400ms linear;
+}
+@media screen and (min-width: 768px) {
+  .form__textarea {
+    width: 364px;
+    height: 58px;
+  }
 }
 
 .form__textarea:focus {
@@ -1330,6 +1398,13 @@ ul {
   cursor: pointer;
   -webkit-transition: border 300ms linear;
   transition: border 300ms linear;
+}
+@media screen and (min-width: 768px) {
+  .form__button {
+    width: 132px;
+    height: 48px;
+    font-size: 18px;
+  }
 }
 .form__button:hover {
   border: 1px solid #93abae;
