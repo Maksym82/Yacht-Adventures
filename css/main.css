@@ -1586,7 +1586,7 @@ ul {
 }
 
 .modal__yacht {
-  margin-bottom: 24px;
+  margin-bottom: 0 auto 24px;
 }
 
 .modal__title {
@@ -1596,9 +1596,19 @@ ul {
   letter-spacing: -0.04em;
   margin-bottom: 14px;
 }
+@media screen and (min-width: 768px) {
+  .modal__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}
 
 .modal__text {
   font-weight: 400;
-  letter-spacing: -0.02em;
   margin-bottom: 0;
+}
+@media screen and (min-width: 768px) {
+  .modal__text {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=main.css.map */
