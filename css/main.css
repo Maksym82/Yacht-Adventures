@@ -1544,4 +1544,43 @@ ul {
     width: 275px;
     height: 275px;
   }
+}
+
+.backdrop.is-hidden .modal {
+  opacity: 0;
+  -webkit-transform: translate(-50%, -70%);
+          transform: translate(-50%, -70%);
+}
+
+.modal__btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.modal__btn:hover > .modal__icon, .modal__btn:focus > .modal__icon {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+@media screen and (min-width: 768px) {
+  .modal__btn {
+    top: 32px;
+    right: 32px;
+  }
+}
+
+.modal__icon {
+  stroke: #f6f5ef;
 }/*# sourceMappingURL=main.css.map */

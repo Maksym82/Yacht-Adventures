@@ -286,3 +286,35 @@
   }
 }
 
+.backdrop.is-hidden .modal {
+  opacity: 0;
+  transform: translate(-50%, -70%);
+}
+
+.modal__btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:hover > .modal__icon,
+  &:focus > .modal__icon {
+    transform: scale(1.25);
+  }
+
+  @media screen and (min-width: 768px) {
+    top: 32px;
+    right: 32px;
+  }
+}
+
+.modal__icon {
+  stroke: $colorWhite;
+}
+
