@@ -14,7 +14,7 @@ const refs = {
   refs.form.addEventListener('submit', function (e) {
     e.preventDefault();
     if (refs.form.checkValidity()) {
-      refs.modalTitle.textContent = `${refs.inputUserName.value}, thank you!`;
+      refs.modalTitle.textContent = `${refs.inputUserName.value}, Thank you!`;
       toggleModal();
       refs.form.reset();
     }

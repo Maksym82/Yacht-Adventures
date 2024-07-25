@@ -1583,4 +1583,22 @@ ul {
 
 .modal__icon {
   stroke: #f6f5ef;
+}
+
+.modal__yacht {
+  margin-bottom: 24px;
+}
+
+.modal__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 14px;
+}
+
+.modal__text {
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
