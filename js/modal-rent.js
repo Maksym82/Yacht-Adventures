@@ -1,9 +1,9 @@
 const refs = {
-    form: document.querySelector('.rent-form'),
+    form: document.querySelector('.form'),
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
     modal: document.querySelector('.backdrop'),
-    modalTitle: document.querySelector('.modal-title'),
+    modalTitle: document.querySelector('.modal__title'),
     inputUserName: document.querySelector('#username'),
   };
   
