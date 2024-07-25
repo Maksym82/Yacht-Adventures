@@ -964,6 +964,50 @@
           </div>
         </div>
       </section>
+      <!--Pop up-->
+      <div class="backdrop is-hidden">
+        <div class="modal">
+          <button class="modal__btn" type="submit">
+            <svg class="modal__icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <picture>
+            <source
+              srcset="
+                ./images/modal/modal-yaht-desktop@1x.png 1x,
+                ./images/modal/modal-yaht-desktop@2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./images/modal/modal-yaht-tablet@1x.png 1x,
+                ./images/modal/modal-yaht-tablet@2x.png 2x
+              "
+              media="(min-width: 768px)"
+              type="image/png"
+            />
+            <img
+              srcset="
+                ./images/modal/modal-yaht-mobile@1x.png 1x,
+                ./images/modal/modal-yaht-mobile@2x.png 2x
+              "
+              src="./images/modal/modal-yaht.png"
+              alt="yacht"
+              class="modal__yacht"
+            />
+          </picture>
+          <h3 class="modal__title">Thank you</h3>
+          <p class="modal__text">
+            Thank you for choosing Yacht Adventures, your booking details have
+            been received and our team will be in touch shortly to confirm your
+            reservation and provide any additional information or assistance you
+            may need.
+          </p>
+        </div>
+      </div>
     </main>
     <footer></footer>
     <script src="./js/my-swiper.js" type="module"></script>
