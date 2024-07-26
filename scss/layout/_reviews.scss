@@ -1,0 +1,31 @@
+.reviews {
+  max-width: 375px;
+  margin: 0 auto;
+  margin-bottom: 107px;
+}
+
+.reviews__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 24px;
+}
+
+.reviews__title-span {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  color: $colorLightGreen;
+}
+
+.reviews__text {
+  font-weight: 400;
+//   font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+//   color: var(--white);
+margin-bottom: 40px;
+}
