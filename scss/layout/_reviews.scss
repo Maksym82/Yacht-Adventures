@@ -70,6 +70,11 @@
 }
 
 // Reviews slider
+.swiper__reviews-list {
+  min-width: 320px;
+  max-width: 375px;
+}
+
 .swiper__reviews-item {
   display: flex;
   flex-direction: column;
@@ -103,4 +108,12 @@
   color: rgba(246, 245, 239, 0.5);
   margin-bottom: 0;
   width: 300px;
+}
+
+.slider-nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+  padding-bottom: 80px;
 }
