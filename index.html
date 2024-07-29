@@ -1013,14 +1013,46 @@
         <div class="container">
           <div class="reviews__text-container">
             <h3 class="reviews__title">
-              <span class="reviews__title-span">Yacht Adventures</span> take pride in providing the best possible service
-              and experience to our customers
+              <span class="reviews__title-span">Yacht Adventures</span> take
+              pride in providing the best possible service and experience to our
+              customers
             </h3>
             <p class="reviews__text">
               Our customers have enjoyed unforgettable moments on our yachts.
               Don't just take our word for it - read on to find out what they
               have to say about their journey with us.
             </p>
+          </div>
+          <!--Swiper reviews-->
+          <div class="swiper__reviews-box">
+            <ul class="swiper__reviews-list">
+              <!--Card #1-->
+              <li class="swiper__reviews-item">
+                <div class="customer__container">
+                  <div class="customer__pic">
+                    <picture>
+                      <source
+                        srcset="
+                          ./images/reviews/reviews-desktop-tablet-1card@1x.png 1x,
+                          ./images/reviews/reviews-desktop-tablet-1card@2x.png 2x
+                        "
+                        media="(min-width: 768px)"
+                        type="image/png"
+                      />
+                      <img
+                        srcset="
+                          ./images/reviews/reviews-mobile-1card@1x.png 1x,
+                          ./images/reviews/reviews-mobile-1card@2x.png 2x
+                        "
+                        src="./images/reviews/reviews-mobile-1card.png"
+                        alt="custumer"
+                        class="reviews__img"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
