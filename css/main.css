@@ -887,7 +887,7 @@ ul {
 .swiper-slide {
   position: relative;
   width: 335px;
-  height: 469px;
+  padding-bottom: 15px;
   border-radius: 24px;
   background-color: #1f212d;
 }
@@ -1695,12 +1695,7 @@ ul {
   }
 }
 
-.swiper__reviews-list {
-  min-width: 320px;
-  max-width: 375px;
-}
-
-.swiper__reviews-item {
+.reviews__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1714,7 +1709,6 @@ ul {
   border-radius: 24px;
   padding: 24px 14px;
   width: 335px;
-  height: 208px;
   background-color: #1f212d;
 }
 
@@ -1742,7 +1736,7 @@ ul {
   width: 300px;
 }
 
-.slider-nav {
+.swiper-pagination {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1752,4 +1746,5 @@ ul {
           justify-content: center;
   margin-top: 14px;
   padding-bottom: 80px;
+  background-color: #93abae;
 }/*# sourceMappingURL=main.css.map */

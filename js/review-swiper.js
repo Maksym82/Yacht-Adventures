@@ -6,7 +6,7 @@ $(document).ready(function () {
     initialSlide: 0,
     slidesOffsetBefore: 0,
     pagination: {
-      el: '.slider-nav',
+      el: '.swiper-pagination',
       clickable: true,
     },
     autoplay: {

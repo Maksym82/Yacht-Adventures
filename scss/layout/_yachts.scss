@@ -160,7 +160,8 @@
 .swiper-slide {
   position: relative;
   width: 335px;
-  height: 469px;
+  // height: 469px;
+  padding-bottom: 15px;
   border-radius: 24px;
   background-color: $colorBlue-2;
 
