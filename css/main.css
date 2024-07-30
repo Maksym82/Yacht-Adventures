@@ -1699,7 +1699,18 @@ ul {
   max-width: 375px;
   height: auto;
 }
+@media screen and (min-width: 768px) {
+  .swiper__box {
+    max-width: 704px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .swiper__reviews-list > .swiper-slide {
+    width: 344px;
+    height: 266px;
+  }
+}
 .reviews__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1714,13 +1725,22 @@ ul {
   border-radius: 24px;
   padding: 24px 14px;
   width: 335px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   background-color: #1f212d;
+}
+@media screen and (min-width: 768px) {
+  .reviews__card {
+    width: 344px;
+    padding: 24px 12px;
+  }
 }
 
 .reviews__img {
   margin: 0 auto 18px;
+}
+@media screen and (min-width: 768px) {
+  .reviews__img {
+    margin: 0 auto 24px;
+  }
 }
 
 .customer__name {
@@ -1730,6 +1750,11 @@ ul {
   letter-spacing: -0.04em;
   text-align: center;
   margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .customer__name {
+    font-size: 18px;
+  }
 }
 
 .customer__text {
@@ -1741,6 +1766,12 @@ ul {
   color: rgba(246, 245, 239, 0.5);
   margin-bottom: 0;
   width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .customer__text {
+    font-size: 16px;
+    width: 320px;
+  }
 }
 
 .swiper-pagination {
