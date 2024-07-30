@@ -87,7 +87,12 @@
   .swiper__reviews-list > .swiper-slide {
     width: 344px;
     height: 266px;
-    
+  }
+}
+@media screen and (min-width: 1280px) {
+  .swiper__reviews-list > .swiper-slide {
+    width: 384px;
+    height: 282px;
   }
 }
 
@@ -103,6 +108,12 @@
   @media screen and (min-width: 768px) {
     width: 344px;
     padding: 24px 12px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 384px;
+    height: 282px;
+    padding: 32px;
   }
 }
 

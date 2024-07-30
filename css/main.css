@@ -1716,6 +1716,12 @@ ul {
     height: 266px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .swiper__reviews-list > .swiper-slide {
+    width: 384px;
+    height: 282px;
+  }
+}
 .reviews__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1736,6 +1742,13 @@ ul {
   .reviews__card {
     width: 344px;
     padding: 24px 12px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .reviews__card {
+    width: 384px;
+    height: 282px;
+    padding: 32px;
   }
 }
 
