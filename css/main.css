@@ -1621,7 +1621,7 @@ ul {
 @media screen and (min-width: 768px) {
   .reviews {
     max-width: 768px;
-    padding-bottom: 134px;
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -1704,6 +1704,11 @@ ul {
     max-width: 704px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .swiper__box {
+    max-width: 1216px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .swiper__reviews-list > .swiper-slide {
@@ -1778,7 +1783,12 @@ ul {
   position: relative;
   bottom: auto;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 14px;
+}
+@media screen and (min-width: 768px) {
+  .swiper-pagination {
+    margin-top: 21px;
+  }
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
