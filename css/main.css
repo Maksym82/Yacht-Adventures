@@ -1695,6 +1695,11 @@ ul {
   }
 }
 
+.swiper__box {
+  max-width: 375px;
+  height: auto;
+}
+
 .reviews__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1709,6 +1714,8 @@ ul {
   border-radius: 24px;
   padding: 24px 14px;
   width: 335px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   background-color: #1f212d;
 }
 
@@ -1737,14 +1744,36 @@ ul {
 }
 
 .swiper-pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 14px;
-  padding-bottom: 80px;
-  background-color: #93abae;
+  position: relative;
+  bottom: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 0;
+  top: auto;
+  left: 0;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #1f212d;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #88b3b9;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+  background-color: #88b3b9;
 }/*# sourceMappingURL=main.css.map */
