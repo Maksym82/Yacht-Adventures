@@ -7,6 +7,10 @@
     max-width: 768px; 
     padding-bottom: 16px;
   }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+  }
 }
 
 .footer__nav {
@@ -21,6 +25,10 @@
     width: 704px;
     padding-top: 64px;
     margin-bottom: 100px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1216px;
   }
 }
 
@@ -68,6 +76,12 @@
     gap: 24px;
     margin-bottom: 0;
   }
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    width: 218px;
+    height: 17px;
+  }
 }
 
 .footer__list::before {
@@ -99,6 +113,10 @@
 
 .footer__social-box {
   margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .footer__social-title {
