@@ -1616,7 +1616,7 @@ ul {
 .reviews {
   max-width: 375px;
   margin: 0 auto;
-  padding-bottom: 107px;
+  padding-bottom: 80px;
 }
 @media screen and (min-width: 768px) {
   .reviews {
@@ -1830,4 +1830,10 @@ ul {
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 10px;
   background-color: #88b3b9;
+}
+
+.footer {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-bottom: 14px;
 }/*# sourceMappingURL=main.css.map */
