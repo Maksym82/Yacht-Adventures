@@ -2088,7 +2088,7 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 5;
+  z-index: 15;
   width: 100%;
   height: 100%;
   background-color: #11131f;
@@ -2166,4 +2166,14 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 140px;
+  gap: 14px;
+}
+
+.mobile-menu__link {
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f6f5ef;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

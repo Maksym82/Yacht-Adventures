@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 5;
+  z-index: 15;
   width: 100%;
   height: 100%;
   background-color: $colorDarkBlue;
@@ -49,9 +49,19 @@
 }
 
 .mobile-menu__list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 140px;
+  gap: 14px;
+}
+
+.mobile-menu__link {
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $colorWhite;
+  text-decoration: none;
 }
