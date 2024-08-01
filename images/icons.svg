@@ -25,5 +25,9 @@
         <symbol id="icon-scroll-up" viewBox="0 0 16 32">
             <path d="M0 9.778l8-9.778 8 9.778h-6.614v22.222h-2.771v-22.222h-6.614z"></path>
         </symbol>
+        <symbol id="icon-burger-close" viewBox="0 0 32 32">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16"></path>
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M8 8l16 16"></path>
+        </symbol>
     </defs>
 </svg>
