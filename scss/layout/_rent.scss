@@ -204,7 +204,7 @@
   fill: $colorWhite;
   background-color: transparent;
   cursor: pointer;
-  transition: border 300ms linear;
+  transition: border 300ms linear, color 300ms linear;
 
   @media screen and (min-width: 768px) {
     width: 132px;
@@ -214,6 +214,7 @@
 
   &:hover {
     border: 1px solid $colorLightGreen;
+    color: $colorLightGreen;
   }
 }
 
