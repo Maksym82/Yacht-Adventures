@@ -4,7 +4,7 @@ scrollToTopButton.addEventListener('click', () => {
   anime({
     targets: document.documentElement,
     scrollTop: 0,
-    duration: 400,
+    duration: 100,
     easing: 'easeInOutQuad',
   });
 });
