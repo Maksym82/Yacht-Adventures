@@ -1,0 +1,28 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background-color: $colorDarkBlue;
+  transform: translateX(100%);
+  transition: transform 300ms linear;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+
+.mobile__header {
+  padding: 0 20px;
+}
+
+.mobile__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(246, 245, 239, 0.2);
+  width: 335px;
+}
