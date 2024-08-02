@@ -2077,7 +2077,16 @@ ul {
   border-radius: 8px;
   cursor: pointer;
   z-index: 5;
-  opacity: 0.6;
+  -webkit-transition: background-color 200ms linear, -webkit-transform 200ms linear;
+  transition: background-color 200ms linear, -webkit-transform 200ms linear;
+  transition: transform 200ms linear, background-color 200ms linear;
+  transition: transform 200ms linear, background-color 200ms linear, -webkit-transform 200ms linear;
+}
+
+#scrollToTop:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: #83c4ce;
 }
 
 .scroll-up {
