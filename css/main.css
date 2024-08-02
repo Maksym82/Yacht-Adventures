@@ -2169,6 +2169,20 @@ ul {
   gap: 14px;
 }
 
+.mobile-menu__list::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -30%;
+  width: 280px;
+  height: 280px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-filter: blur(150px);
+          filter: blur(150px);
+  background-color: #91afba;
+}
+
 .mobile-menu__link {
   font-weight: 700;
   line-height: 1.18;

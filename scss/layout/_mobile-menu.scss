@@ -57,6 +57,18 @@
   gap: 14px;
 }
 
+.mobile-menu__list::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: -30%;
+  width: 280px;
+  height: 280px;
+  transform: rotate(45deg);
+  filter: blur(150px);
+  background-color: #91afba;
+}
+
 .mobile-menu__link {
   font-weight: 700;
   line-height: 1.18;
@@ -65,3 +77,16 @@
   color: $colorWhite;
   text-decoration: none;
 }
+
+// .first-light {
+
+//   position: absolute;
+//   bottom: 0;
+//   left: -45%;
+//   z-index: -1;
+//   width: 280px;
+//   height: 280px;
+//   transform: rotate(45deg);
+//   filter: blur(200px);
+//   background-color:  #91afba;
+// }
