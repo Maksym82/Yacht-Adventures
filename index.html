@@ -30,12 +30,6 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!--Scroll up-->
-    <div id="scrollToTop">
-      <svg class="scroll-up" width="44" height="44">
-        <use href="./images/icons.svg#icon-scroll-up"></use>
-      </svg>
-    </div>
     <!--Header-->
     <header class="header">
       <div class="header__container">
@@ -59,7 +53,7 @@
               <a class="header__nav-link" href="#reviews">Reviews</a>
             </li>
           </ul>
-          <button class="header__open-menu js-open-menu" type="button" >
+          <button class="header__open-menu js-open-menu" type="button">
             <svg class="header-icon-menu">
               <use href="./images/icons.svg#icon-burger-menu"></use>
             </svg>
@@ -89,13 +83,19 @@
       </div>
       <ul class="mobile-menu__list">
         <li>
-          <a class="mobile-menu__link mobile-header-link" href="#about">About</a>
+          <a class="mobile-menu__link mobile-header-link" href="#about"
+            >About</a
+          >
         </li>
         <li>
-          <a class="mobile-menu__link mobile-header-link" href="#yachts">Yachts</a>
+          <a class="mobile-menu__link mobile-header-link" href="#yachts"
+            >Yachts</a
+          >
         </li>
         <li>
-          <a class="mobile-menu__link mobile-header-link" href="#reviews">Reviews</a>
+          <a class="mobile-menu__link mobile-header-link" href="#reviews"
+            >Reviews</a
+          >
         </li>
       </ul>
     </div>
@@ -949,7 +949,6 @@
                     placeholder="Maksym"
                     pattern="[A-Za-z]{3,}"
                     title="The name must contain at least three Latin letters"
-                    autofocus
                     required
                   />
                 </label>
@@ -1233,6 +1232,12 @@
           </div>
         </div>
       </footer>
+      <!--Scroll up-->
+      <div id="scrollToTop">
+        <svg class="scroll-up" width="44" height="44">
+          <use href="./images/icons.svg#icon-scroll-up"></use>
+        </svg>
+      </div>
     </main>
     <footer></footer>
     <script src="./js/my-swiper.js" type="module"></script>
