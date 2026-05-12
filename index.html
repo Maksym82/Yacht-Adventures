@@ -118,32 +118,62 @@
             <div class="hero__image">
               <div class="hero__image-container">
                 <picture>
+                  <!-- Desktop 1280 -->
                   <source
-                    media="(max-width: 767px)"
                     srcset="
-                      ./images/hero/hero-mobile-ceo-133.jpg 1x,
-                      ./images/hero/hero-mobile-ceo-266.jpg 2x
+                      ./images/hero/hero-ceo/hero-desktop-ceo-233.avif 1x,
+                      ./images/hero/hero-ceo/hero-desktop-ceo-466.avif 2x
                     "
-                    type="image/jpeg"
-                  />
-                  <source
-                    media="(min-width: 768px)"
-                    srcset="
-                      ./images/hero/hero-tablet-ceo-233.jpg 1x,
-                      ./images/hero/hero-tablet-ceo-466.jpg 2x
-                    "
-                    type="image/jpeg"
-                  />
-                  <source
+                    type="image/avif"
                     media="(min-width: 1280px)"
-                    srcset="
-                      ./images/hero/hero-desktop-ceo-233.jpg 1x,
-                      ./images/hero/hero-desktop-ceo-466.jpg 2x
-                    "
-                    type="image/jpeg"
                   />
+                  <source
+                    srcset="
+                      ./images/hero/hero-ceo/hero-desktop-ceo-233.webp 1x,
+                      ./images/hero/hero-ceo/hero-desktop-ceo-466.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1280px)"
+                  />
+                  <!-- Tablet 768 -->
+                  <source
+                    srcset="
+                      ./images/hero/hero-ceo/hero-tablet-ceo-233.avif 1x,
+                      ./images/hero/hero-ceo/hero-tablet-ceo-466.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/hero/hero-ceo/hero-tablet-ceo-233.webp 1x,
+                      ./images/hero/hero-ceo/hero-tablet-ceo-466.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 768px)"
+                  />
+                  <!-- Mobile -->
+                  <source
+                    srcset="
+                      ./images/hero/hero-ceo/hero-mobile-ceo-133.avif 1x,
+                      ./images/hero/hero-ceo/hero-mobile-ceo-266.avif 2x
+                    "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/hero/hero-ceo/hero-mobile-ceo-133.webp 1x,
+                      ./images/hero/hero-ceo/hero-mobile-ceo-266.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- Fallback для мобильного -->
                   <img
                     class="hero__img-ceo"
+                    srcset="
+                      ./images/hero/hero-ceo/hero-mobile-ceo-133.jpg 1x,
+                      ./images/hero/hero-ceo/hero-mobile-ceo-266.jpg 2x
+                    "
                     src="./images/hero/hero-ceo.jpg"
                     alt="man"
                   />
@@ -1576,7 +1606,7 @@
                   </p>
                 </div>
               </div>
-              <!--Card #1-->
+              <!--Card #4-->
               <div class="swiper-slide">
                 <div class="reviews__card">
                   <picture>
@@ -1633,7 +1663,7 @@
                   </p>
                 </div>
               </div>
-              <!--Card #2-->
+              <!--Card #5-->
               <div class="swiper-slide">
                 <div class="reviews__card">
                   <picture>
@@ -1690,7 +1720,7 @@
                   </p>
                 </div>
               </div>
-              <!--Card #3-->
+              <!--Card #6-->
               <div class="swiper-slide">
                 <div class="reviews__card">
                   <picture>

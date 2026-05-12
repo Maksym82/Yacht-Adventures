@@ -87,7 +87,7 @@ const swiperYachts = new Swiper('.my-swiper', {
 // ===== Swiper section Reviews =====
 const swiperReviews = new Swiper('.swiper', {
   // Optional parameters
-
+  grabCursor: true,
   loop: true,
 
   // If we need pagination
