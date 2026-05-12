@@ -325,24 +325,45 @@
                   <p class="hero__client-text">Our Clients</p>
                 </div>
                 <picture>
+                  <!-- Desktop and Tablet -->
                   <source
-                    media="(max-width: 767px)"
                     srcset="
-                      ./images/hero/hero-yacht-mobile-287.png 1x,
-                      ./images/hero/hero-yacht-mobile-574.png 2x
+                      ./images/hero/hero-yacht/hero-yacht-tablet-378.avif 1x,
+                      ./images/hero/hero-yacht/hero-yacht-tablet-756.avif 2x
                     "
-                    type="image/png"
-                  />
-                  <source
+                    type="image/avif"
                     media="(min-width: 768px)"
-                    srcset="
-                      ./images/hero/hero-yacht-tablet-378.png 1x,
-                      ./images/hero/hero-yacht-tablet-756.png 2x
-                    "
-                    type="image/png"
                   />
+                  <source
+                    srcset="
+                      ./images/hero/hero-yacht/hero-yacht-tablet-378.webp 1x,
+                      ./images/hero/hero-yacht/hero-yacht-tablet-756.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 768px)"
+                  />
+                  <!-- Mobile -->
+                  <source
+                    srcset="
+                      ./images/hero/hero-yacht/hero-yacht-mobile-287.avif 1x,
+                      ./images/hero/hero-yacht/hero-yacht-mobile-574.avif 2x
+                    "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/hero/hero-yacht/hero-yacht-mobile-287.webp 1x,
+                      ./images/hero/hero-yacht/hero-yacht-mobile-574.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- Fallback для мобильного -->
                   <img
                     class="hero__yacht"
+                    srcset="
+                      ./images/hero/hero-yacht/hero-yacht-mobile-287.png 1x,
+                      ./images/hero/hero-yacht/hero-yacht-mobile-574.png 2x
+                    "
                     src="./images/hero/hero-yacht.png"
                     alt="yacht"
                   />
