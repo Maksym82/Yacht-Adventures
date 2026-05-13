@@ -118,6 +118,50 @@
             <div class="hero__image">
               <div class="hero__image-container">
                 <picture>
+                  <!-- Desktop and Tablet -->
+                  <source
+                    srcset="
+                      ./images/hero/hero-tablet-bg.avif    1x,
+                      ./images/hero/hero-tablet-bg@2x.avif 2x
+                    "
+                    type="image/avif"
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/hero/hero-tablet-bg.webp    1x,
+                      ./images/hero/hero-tablet-bg@2x.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 768px)"
+                  />
+                  <!-- Mobile -->
+                  <source
+                    srcset="
+                      ./images/hero/hero-img-bg.avif    1x,
+                      ./images/hero/hero-img-bg@2x.avif 2x
+                    "
+                    type="image/avif"
+                  />
+                  <source
+                    srcset="
+                      ./images/hero/hero-img-bg.webp    1x,
+                      ./images/hero/hero-img-bg@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <!-- Fallback для мобильного -->
+                  <img
+                    class="hero__img-bg"
+                    srcset="
+                      ./images/hero/hero-img-bg.png    1x,
+                      ./images/hero/hero-img-bg@2x.png 2x
+                    "
+                    src="./images/hero/hero-img-bg.png"
+                    alt="celadon background"
+                  />
+                </picture>
+                <picture>
                   <!-- Desktop 1280 -->
                   <source
                     srcset="
