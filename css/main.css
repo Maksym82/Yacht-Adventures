@@ -743,6 +743,12 @@ ul {
   position: relative;
 }
 
+.about__image-list img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .about__img-first {
   margin-bottom: 24px;
 }
