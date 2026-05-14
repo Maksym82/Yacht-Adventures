@@ -159,7 +159,7 @@
                     "
                     src="./images/hero/hero-img-bg.png"
                     alt="celadon background"
-                    fetchpriority=high
+                    fetchpriority="high"
                   />
                 </picture>
                 <picture>
@@ -662,7 +662,68 @@
               <div class="swiper-wrapper">
                 <!--Card 1-->
                 <div class="swiper-slide">
-                  <img
+                  <picture>
+                    <!-- Desktop 1280 -->
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-desktop-322.avif 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-desktop-644.avif 2x
+                      "
+                      type="image/avif"
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-desktop-322.webp 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-desktop-644.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1280px)"
+                    />
+                    <!-- Tablet 678 -->
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-tablet-312.avif 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-tablet-624.avif 2x
+                      "
+                      type="image/avif"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-tablet-312.webp 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-tablet-624.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <!-- Mobile -->
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-mobile-299.avif 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-mobile-598.avif 2x
+                      "
+                      type="image/avif"
+                    />
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-mobile-299.webp 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-mobile-598.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- Fallback для мобильного -->
+                    <img
+                      class="yachts__image"
+                      srcset="
+                        ./images/yacht/yacht-1/yacht-1-Arrow-desktop-322.jpg 1x,
+                        ./images/yacht/yacht-1/yacht-1-Arrow-desktop-644.jpg 2x
+                      "
+                      src="./images/yacht/yacht-1/yacht-1-Arrow-desktop.jpg"
+                      alt="yacht Arrow"
+                    />
+                  </picture>
+                  <!-- <img
                     class="yachts__image"
                     srcset="
                       ./images/yacht/yacht-1-Arrow-mobile-299.jpg  299w,
@@ -675,7 +736,7 @@
                     sizes="(min-width: 1280px) 322px, (min-width: 768px) 312px, (min-width: 375px) 299px"
                     alt="yacht Arrow"
                     src="./images/yacht/yacht-1-Arrow-desktop.jpg"
-                  />
+                  /> -->
                   <div class="yacht__info">
                     <div class="yacht__info-title">
                       <p class="yachts__name">Arrow</p>
