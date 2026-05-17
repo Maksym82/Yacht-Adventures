@@ -1284,20 +1284,67 @@
                 </div>
                 <!--Card 8-->
                 <div class="swiper-slide">
-                  <img
-                    class="yachts__image"
-                    srcset="
-                      ./images/yacht/yacht-8-mobile-299.jpg  299w,
-                      ./images/yacht/yacht-8-mobile-598.jpg  598w,
-                      ./images/yacht/yacht-8-tablet-312.jpg  312w,
-                      ./images/yacht/yacht-8-tablet-624.jpg  624w,
-                      ./images/yacht/yacht-8-desktop-322.jpg 322w,
-                      ./images/yacht/yacht-8-desktop-644.jpg 644w
-                    "
-                    sizes="(min-width: 1280px) 322px, (min-width: 768px) 312px, (min-width: 375px) 299px"
-                    alt="yacht STORM"
-                    src="./images/yacht/yacht-8-desktop.jpg"
-                  />
+                  <picture>
+                    <!-- Desktop 1280 -->
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-desktop-322.avif 1x,
+                        ./images/yacht/yacht-8/yacht-8-desktop-644.avif 2x
+                      "
+                      type="image/avif"
+                      media="(min-width: 1280px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-desktop-322.webp 1x,
+                        ./images/yacht/yacht-8/yacht-8-desktop-644.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 1280px)"
+                    />
+                    <!-- Tablet 678 -->
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-tablet-312.avif 1x,
+                        ./images/yacht/yacht-8/yacht-8-tablet-624.avif 2x
+                      "
+                      type="image/avif"
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-tablet-312.webp 1x,
+                        ./images/yacht/yacht-8/yacht-8-tablet-624.webp 2x
+                      "
+                      type="image/webp"
+                      media="(min-width: 768px)"
+                    />
+                    <!-- Mobile -->
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-mobile-299.avif 1x,
+                        ./images/yacht/yacht-8/yacht-8-mobile-598.avif 2x
+                      "
+                      type="image/avif"
+                    />
+                    <source
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-mobile-299.webp 1x,
+                        ./images/yacht/yacht-8/yacht-8-mobile-598.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                     <!-- Fallback для мобильного -->
+                    <img
+                      class="yachts__image"
+                      srcset="
+                        ./images/yacht/yacht-8/yacht-8-desktop-322.jpg 1x,
+                        ./images/yacht/yacht-8/yacht-8-desktop-644.jpg 2x
+                      "
+                      src="./images/yacht/yacht-8/yacht-8-desktop.jpg"
+                      alt="yacht STORM"
+                    />
+                  </picture>
                   <div class="yacht__info">
                     <div class="yacht__info-title">
                       <p class="yachts__name">STORM</p>
